@@ -8,7 +8,7 @@ const Header = () => {
     <Wrapper>
       <Div>
       <H1>
-        Cheers, I'm Heather
+        Cheers, I'm Heather!
       </H1>
       </Div>
       <Text>
@@ -16,14 +16,10 @@ const Header = () => {
         Full-Stack Web Developer with a background in Digital Marketing.
       </div>
       <div>
-        Craft Beer Enthusiast.
+        Craft Beer Enthusiast. Dog lover.
       </div>
       </Text>
-      {/* <div>
-        {/* fade in from one side each? */}
-        {/* <FaLinkedinIn />
-        <FaGithub />
-      </div> */} 
+
       <Icons><FaReact className="icon" size={50}/> <FaNodeJs className="icon" size={50}/> <FaJsSquare className="icon" size={50}/> <FaCss3Alt  className="icon" size={50}/> <FaHtml5 className="icon" size={50}/></Icons>
     </Wrapper>
   )
@@ -42,7 +38,6 @@ const slide = keyframes`
     from {
       opacity: 0;
     }
-
     to {
       opacity: 1;
     }
@@ -82,7 +77,6 @@ const fadeIn = keyframes`
     from {
       opacity: 0;
     }
-
     to {
       opacity: 1;
     }
@@ -98,7 +92,7 @@ const Text = styled.div`
 const Icons = styled.div`
   position: absolute;
   bottom: 0px;
-  padding: 35px 0 70px 0;
+  padding: 35px 0 40px 0;
   width: 100vw;
   background-color: #BBD5ED;
 

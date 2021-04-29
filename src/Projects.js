@@ -16,10 +16,8 @@ const Projects = () => {
         <div>
           Backend: Node.js, Express & MongoDB Atlas
         </div>
-  
           <Youtube embedId="dto_rcA2HWo" />
       </Description>
-      
     </Wrapper>
   )
 }
