@@ -11,6 +11,7 @@ const Projects = () => {
           Keg inventory system using Untappd API integration.
         </div>
         <div>
+          WHY
           Frontend: React & Styled Components
         </div>
         <div>
@@ -20,6 +21,20 @@ const Projects = () => {
           <Youtube embedId="dto_rcA2HWo" />
       </Description>
       
+      <Description>
+        <div>
+          Bob's Burgers game
+        </div>
+        <div>
+          Using Vanilla JavaScript, HTML & CSS
+        </div>
+        <div>
+          Play live: https://belcherfamilyfoodfight.netlify.app/
+        </div>
+  
+        <Youtube embedId="7Obar6Y30cU" />
+        
+      </Description>
     </Wrapper>
   )
 }
@@ -29,7 +44,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
 `;
 

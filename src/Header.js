@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { FaReact, FaNodeJs, FaJsSquare, FaCss3Alt, FaHtml5, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJsSquare, FaCss3Alt, FaHtml5 } from "react-icons/fa";
 
 
 const Header = () => {
@@ -19,11 +19,7 @@ const Header = () => {
         Craft Beer Enthusiast.
       </div>
       </Text>
-      {/* <div>
-        {/* fade in from one side each? */}
-        {/* <FaLinkedinIn />
-        <FaGithub />
-      </div> */} 
+     
       <Icons><FaReact className="icon" size={50}/> <FaNodeJs className="icon" size={50}/> <FaJsSquare className="icon" size={50}/> <FaCss3Alt  className="icon" size={50}/> <FaHtml5 className="icon" size={50}/></Icons>
     </Wrapper>
   )
