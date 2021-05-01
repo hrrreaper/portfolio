@@ -85,6 +85,9 @@ const Text = styled.div`
   font-size: 1.2rem;
   line-height: 1.2;
   text-shadow: 2px 2px 0px #BBD5ED;
+  padding: 15px;
+  background-color: rgba(209, 209, 209, 0.2);
+  border-radius: 20px;
   animation: ${fadeIn} 5s ease;
 `;
 
