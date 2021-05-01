@@ -3,6 +3,7 @@ import { GlobalStyles } from './GlobalStyles';
 import Header from './Header';
 import Projects from './Projects';
 import Contact from './Contact';
+import Nav from './Nav';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Projects />
       <About />
       <Contact />
+      <Nav />
     </div>
   );
 }

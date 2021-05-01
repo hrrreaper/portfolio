@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import Youtube from './Youtube';
+import { Element } from 'react-scroll';
 
 const Projects = () => {
   return (
+    <Element id='projects' name='projects' className="element">
     <Wrapper>
       <H2>featured projects</H2>
       <Description>
@@ -18,12 +20,12 @@ const Projects = () => {
         </div>
           <Youtube embedId="dto_rcA2HWo" />
       </Description>
-    </Wrapper>
+      </Wrapper>
+      </Element>
   )
 }
 
 const Wrapper = styled.div`
-  background-color: #BBD5ED;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,6 +39,7 @@ const H2 = styled.h2`
   font-weight: 700;
   margin: 30px 0;
   margin-top: 50px;
+  text-shadow: 2px 2px 0px #9FD9AD;
 `;
 
 const Description = styled.div`

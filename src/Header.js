@@ -2,10 +2,12 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { FaReact, FaNodeJs, FaJsSquare, FaCss3Alt, FaHtml5, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Plant from './Plant';
+import { Element } from 'react-scroll';
 
 
 const Header = () => {
   return (
+    <Element id='header' name='header' className="element">
     <Wrapper>
       <Plant />
       <Div>
@@ -23,7 +25,8 @@ const Header = () => {
 
       <Icons><FaReact className="icon" size={50}/> <FaNodeJs className="icon" size={50}/> <FaJsSquare className="icon" size={50}/> <FaCss3Alt  className="icon" size={50}/> <FaHtml5 className="icon" size={50}/></Icons>
       </Text>
-    </Wrapper>
+      </Wrapper>
+      </Element>
   )
 }
 
@@ -54,7 +57,7 @@ const Div = styled.div`
 `;
 
 const H1 = styled.h1`
-  text-shadow: 5px 8px 0px #BBD5ED;
+  text-shadow: 5px 8px 0px #9FD9AD;
   margin-top: 50px;
   background-image: url(https://media.giphy.com/media/VIzmAi5KS3RyRhY9Sq/source.gif);
 	background-size: cover;
@@ -84,9 +87,9 @@ const fadeIn = keyframes`
 const Text = styled.div`
   font-size: 1.2rem;
   line-height: 1.2;
-  text-shadow: 2px 2px 0px #BBD5ED;
+  text-shadow: 2px 2px 0px #9FD9AD;
   padding: 15px;
-  background-color: rgba(209, 209, 209, 0.2);
+  background-color: rgba(193, 237, 204, 0.5);
   border-radius: 20px;
   animation: ${fadeIn} 5s ease;
 `;

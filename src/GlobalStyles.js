@@ -8,7 +8,7 @@ html {
 }
 
 body{
-	background-color: #6DD3CE;
+	background-color: #C1EDCC;
   max-width: 100vw;
   overflow-x: hidden;
 	font-family: 'Josefin Sans', sans-serif;
