@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { FaReact, FaNodeJs, FaJsSquare, FaCss3Alt, FaHtml5, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJsSquare, FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import Plant from './Plant';
 import { Element } from 'react-scroll';
 
