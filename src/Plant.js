@@ -33,11 +33,11 @@ const ImgDiv = styled.div`
 
 const Img = styled.img`
   z-index: -1;
-  width: 375px;
+  width: 400px;
   float: right;
   position: absolute;
   top: -4vh;
-  left: -1vw;
+  left: -2vw;
   animation: ${swing} 3s ease forwards infinite;
 `;
 

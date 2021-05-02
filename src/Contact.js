@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Element } from 'react-scroll';
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -9,12 +10,12 @@ const Contact = () => {
         
         <h2>CONTACT ME!</h2>
 
-      <div>
-        Find me on LinkedIn: Heather Reaper
+        <div>
+          <FaLinkedinIn /> Heather Reaper
       </div>
       
       <div>
-        View my GitHub here:
+        <FaGithub /> hrrreaper
       </div>
 
       <div>

@@ -57,13 +57,12 @@ const Div = styled.div`
 `;
 
 const H1 = styled.h1`
-  text-shadow: 5px 8px 0px #9FD9AD;
+  text-shadow: 6px 8px 0px #4A7C59;
   margin-top: 50px;
   background-image: url(https://media.giphy.com/media/VIzmAi5KS3RyRhY9Sq/source.gif);
 	background-size: cover;
   background-position: center;
 	color: transparent;
-  -moz-background-clip: text;
 	-webkit-background-clip: text;
   padding: 10px 20px;
   width: fit-content;
