@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Youtube from './Youtube';
 import { Element } from 'react-scroll';
 import dog1 from './assets/dog1.PNG';
 import dogs2 from './assets/dog2.PNG';
@@ -44,24 +43,8 @@ const Projects = () => {
             <Img src={mosaic3} />
             <Img src={mosaic4} />
           </ImgsDiv>
-      </Description>
-      <Description>
-        <H3>
-          Bob's Burgers Game
-        </H3>
-        <div>
-          Build using Object Oriented Programming with JavaScript.
-        </div>
-        <div>
-          Play it live <A href='https://belcherfamilyfoodfight.netlify.app/' target='_blank'>here!</A> Or view a demo <A href='https://youtu.be/7Obar6Y30cU' target='_blank'>on YouTube!</A>
-        </div>
-          <ImgsDiv>
-          <Img src={bob1} />
-          <Img src={bob2} />
-          <Img src={bob3} />
-        </ImgsDiv>
-      </Description>
-      <Description>
+        </Description>
+        <Description>
         <H3>
           DogSpace
         </H3>
@@ -83,6 +66,22 @@ const Projects = () => {
         </ImgsDiv>
           
       </Description>
+      <Description>
+        <H3>
+          Bob's Burgers Game
+        </H3>
+        <div>
+          Build using Object Oriented Programming with JavaScript.
+        </div>
+        <div>
+          Play it live <A href='https://belcherfamilyfoodfight.netlify.app/' target='_blank'>here!</A> Or view a demo <A href='https://youtu.be/7Obar6Y30cU' target='_blank'>on YouTube!</A>
+        </div>
+          <ImgsDiv>
+          <Img src={bob1} />
+          <Img src={bob2} />
+          <Img src={bob3} />
+        </ImgsDiv>
+      </Description>
       </Wrapper>
       </Element>
   )
@@ -103,21 +102,22 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 100vh; */
   width: 100vw;
   margin-bottom: 100px;
 `;
 
 const A = styled.a`
- color: #4A7C59;
- font-weight: 700;
+  color: #4A7C59;
+  font-weight: 700;
 `;
 
 const H3 = styled.h3`
   text-transform: uppercase;
   text-align: center;
   font-size: 1.3rem;
+  font-weight: 700;
   padding: 10px;
+  text-shadow: 2px 2px 0px #9FD9AD;
 `;
 
 const H2 = styled.h2`
@@ -126,11 +126,11 @@ const H2 = styled.h2`
   font-weight: 700;
   margin: 30px 0;
   margin-top: 50px;
-  text-shadow: 2px 2px 0px #9FD9AD;
+  text-shadow: 2px 2px 0px white;
 `;
 
 const Description = styled.div`
-  width: 70vw;
+  width: 80vw;
   margin-top: 20px;
   margin-bottom: 50px;
   display: flex;
@@ -140,6 +140,11 @@ const Description = styled.div`
   padding: 20px 40px;
   border-radius: 20px;
   box-shadow: 2px 2px 8px  2px rgba(0, 0, 0, 0.3);
+
+  
+    @media screen and (max-width: 700px) {
+    width: 70vw;
+  }
 `;
 
 export default Projects;

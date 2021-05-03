@@ -58,7 +58,7 @@ const Div = styled.div`
 
 const H1 = styled.h1`
   text-shadow: 6px 8px 0px white;
-  margin-top: 50px;
+  margin-top: 15vh;
   background-image: url(https://media.giphy.com/media/VIzmAi5KS3RyRhY9Sq/source.gif);
 	background-size: cover;
   background-position: center;
@@ -66,11 +66,16 @@ const H1 = styled.h1`
 	-webkit-background-clip: text;
   padding: 10px 20px;
   width: fit-content;
-  font-size: 6rem;
+  font-size: 7rem;
   font-family: 'Righteous', cursive;
   text-transform: uppercase;
   transition: 1s ease;
   animation: ${slide} 2s ease;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 10vh;
+    font-size: 6rem;
+  }
 `;
 
 
@@ -84,17 +89,25 @@ const fadeIn = keyframes`
 `;
 
 const Text = styled.div`
-  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10vh;
+  font-size: 1.1rem;
+  font-weight: 700;
   line-height: 1.2;
   text-shadow: 2px 2px 0px white;
+  letter-spacing: 2px;
   padding: 15px;
   background-color: rgba(193, 237, 204, 0.5);
   border-radius: 20px;
   animation: ${fadeIn} 5s ease;
+
+  @media screen and (max-width: 700px) {
+    font-size: 1rem;
+  }
 `;
 
 const Icons = styled.div`
-
+  margin-top: 20px;
   .icon {
     margin: 10px;
     color: #414361;

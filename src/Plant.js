@@ -33,7 +33,7 @@ const ImgDiv = styled.div`
 
 const Img = styled.img`
   z-index: -1;
-  width: 400px;
+  width: 450px;
   float: right;
   position: absolute;
   top: -4vh;

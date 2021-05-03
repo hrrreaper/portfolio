@@ -8,6 +8,7 @@ const Nav = () => {
   return (
     <Wrapper>
       <NavBtn>
+        {/* Scroll allows smooth scrolling on single pg apps with React */}
         <StyledScroll
         to="header" 
         spy={true} 
@@ -85,7 +86,7 @@ const A = styled.a`
   color: #414361;
   
   &:hover {
-    color: #4A7C59;
+    color: white;
   }
 `;
 
@@ -113,6 +114,11 @@ const StyledScroll = styled(Scroll.Link)`
 
   &:hover{
     font-weight: 700;
+  }
+
+    @media screen and (max-width: 700px) {
+    font-size: 1rem;
+    letter-spacing: 2px;
   }
   
 `;
