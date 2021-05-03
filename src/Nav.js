@@ -40,16 +40,7 @@ const Nav = () => {
       </StyledScroll>
 
       </NavBtn>
-        {/* <StyledScroll
-        to="contact" 
-        spy={true} 
-        smooth={true} 
-        duration={100} 
-        className='element' 
-        activeClass='active'
-      >
-      CONTACT
-      </StyledScroll>  */}
+    
       <Links>
       <A href='https://www.linkedin.com/in/heatherreaper/' target="_blank">
       <FaLinkedin size={25}/>
@@ -103,7 +94,7 @@ const StyledScroll = styled(Scroll.Link)`
   letter-spacing: 3px;
   font-size: 1.2rem;
   font-weight: 500;
-  text-shadow: 2px 3px 0px #C1EDCC;
+  text-shadow: 2px 3px 0px white;
   margin-left: 20px;
 
   &::after {

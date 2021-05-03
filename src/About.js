@@ -10,7 +10,8 @@ const About = () => {
         <Img src={pic1} />
         <Text>
           <p>
-            Hi, I'm Heather! A recent graduate from Concordia University's Full-Stack Web Development program. I have over 5 year's experience in digital marketing where I worked closely with developers and found their work more interesting than mine.
+            Hi 👋 I'm Heather Reaper. A recent graduate from Concordia's Full-Stack Web Development Bootcamp with a background in digital marketing, a passion for craft beer and my dog, Archie. I'm enthusiastic about learning new technologies and am looking for opportunities to practice and expand my knowledge.
+            Skilled in React, Node.js, JavaScript, Redux, HTML, CSS, MongoDB, REST APIs, Email Campaign Management and Google Analytics. 
           </p>
         </Text>
         </Wrapper>
@@ -26,6 +27,10 @@ const Img = styled.img`
 
 const Text = styled.div`
   width: 40vw;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px  2px rgba(0, 0, 0, 0.2);
 `;
 
 const Wrapper = styled.div`
