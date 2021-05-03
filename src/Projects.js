@@ -14,6 +14,7 @@ import mosaic2 from './assets/mosaic-project-2.PNG';
 import mosaic3 from './assets/mosaic-project-3.PNG';
 import mosaic4 from './assets/mosaic-project-4.PNG';
 import mosaic5 from './assets/mosaic-project-5.PNG';
+import quote1 from './assets/quote1.PNG';
 
 const Projects = () => {
   return (
@@ -80,6 +81,20 @@ const Projects = () => {
           <Img src={bob1} />
           <Img src={bob2} />
           <Img src={bob3} />
+        </ImgsDiv>
+      </Description>
+      <Description>
+        <H3>
+          Quote Generator
+        </H3>
+        <div>
+          Build using HTML, CSS & JavaScript.  
+        </div>
+        <div>
+          Generates random quotes with Twitter integration.
+        </div>
+          <ImgsDiv>
+          <Img src={quote1} />
         </ImgsDiv>
       </Description>
       </Wrapper>
