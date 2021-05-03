@@ -90,12 +90,30 @@ const Projects = () => {
 const ImgsDiv = styled.div`
   display: flex;
   overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  
+  &::-webkit-scrollbar {
+    width: 11px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 4px solid var(--scrollbarBG);
+}
 `;
 
 const Img = styled.img`
   height: 450px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  
+    @media screen and (max-width: 700px) {
+    height: 400px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -140,7 +158,6 @@ const Description = styled.div`
   padding: 20px 40px;
   border-radius: 20px;
   box-shadow: 2px 2px 8px  2px rgba(0, 0, 0, 0.3);
-
   
     @media screen and (max-width: 700px) {
     width: 70vw;

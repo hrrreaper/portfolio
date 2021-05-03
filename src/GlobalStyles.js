@@ -22,7 +22,6 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
-
 html {
 	scroll-behavior: smooth;
 	color: #414361;
