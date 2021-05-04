@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.a8ae96ae.chunk.js",
-    "main.js.map": "/static/js/main.a8ae96ae.chunk.js.map",
+    "main.js": "/static/js/main.c678c409.chunk.js",
+    "main.js.map": "/static/js/main.c678c409.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
     "static/js/2.71aec29c.chunk.js": "/static/js/2.71aec29c.chunk.js",
@@ -16,6 +16,9 @@
     "static/media/dog3.32cfba75.PNG": "/static/media/dog3.32cfba75.PNG",
     "static/media/dog4.0fdad757.PNG": "/static/media/dog4.0fdad757.PNG",
     "static/media/dog5.67d1dc4b.PNG": "/static/media/dog5.67d1dc4b.PNG",
+    "static/media/kanban1.f93059a3.PNG": "/static/media/kanban1.f93059a3.PNG",
+    "static/media/kanban2.9192cd65.PNG": "/static/media/kanban2.9192cd65.PNG",
+    "static/media/kanban3.aa91e80f.PNG": "/static/media/kanban3.aa91e80f.PNG",
     "static/media/mosaic-project-1.efad2080.PNG": "/static/media/mosaic-project-1.efad2080.PNG",
     "static/media/mosaic-project-2.f449ef68.PNG": "/static/media/mosaic-project-2.f449ef68.PNG",
     "static/media/mosaic-project-3.3408d66e.PNG": "/static/media/mosaic-project-3.3408d66e.PNG",
@@ -28,6 +31,6 @@
   "entrypoints": [
     "static/js/runtime-main.a06e69b5.js",
     "static/js/2.71aec29c.chunk.js",
-    "static/js/main.a8ae96ae.chunk.js"
+    "static/js/main.c678c409.chunk.js"
   ]
 }
