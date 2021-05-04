@@ -78,8 +78,8 @@ const H1 = styled.h1`
     font-size: 5rem;
   }
   @media screen and (max-width: 500px) {
-    margin-top: 15vh;
-    font-size: 4rem;
+    margin-top: 17vh;
+    font-size: 4.75rem;
   }
 `;
 
@@ -107,8 +107,7 @@ const Text = styled.div`
   animation: ${fadeIn} 5s ease;
 
   @media screen and (max-width: 700px) {
-    font-size: 1rem;
-    bottom: 5vh;
+    bottom: 0vh;
   }
 `;
 
@@ -118,7 +117,13 @@ const Icons = styled.div`
   .icon {
     margin: 10px;
     color: #414361;
+
+    @media screen and (max-width: 500px) {
+    margin: 3px;
   }
+  }
+
+
 `;
 
 export default Header
