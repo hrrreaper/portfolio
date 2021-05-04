@@ -38,7 +38,7 @@ const Img = styled.img`
   position: absolute;
   top: -4vh;
   left: -2vw;
-  animation: ${swing} 3s ease forwards infinite;
+  animation: ${swing} 4s ease-in-out forwards infinite;
 `;
 
 export default Plant

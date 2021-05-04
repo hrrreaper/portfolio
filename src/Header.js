@@ -57,7 +57,7 @@ const Div = styled.div`
 `;
 
 const H1 = styled.h1`
-  text-shadow: 6px 8px 0px white;
+  text-shadow: 8px 9px 0px white;
   margin-top: 15vh;
   background-image: url(https://media.giphy.com/media/VIzmAi5KS3RyRhY9Sq/source.gif);
 	background-size: cover;

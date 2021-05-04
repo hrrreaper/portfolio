@@ -94,7 +94,7 @@ const StyledScroll = styled(Scroll.Link)`
   cursor: pointer;
   letter-spacing: 3px;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
   text-shadow: 2px 3px 0px white;
   margin-left: 20px;
 
