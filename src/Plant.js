@@ -42,7 +42,7 @@ const Img = styled.img`
 
   @media screen and (max-width: 500px) {
     top: 3vh;
-    left: -20vw;
+    left: -12vw;
   }
   @media screen and (max-width: 400px) {
     top: 5vh;
