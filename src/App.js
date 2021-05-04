@@ -3,18 +3,23 @@ import { GlobalStyles } from './GlobalStyles';
 import Header from './Header';
 import Projects from './Projects';
 import Nav from './Nav';
+import styled from 'styled-components';
 
 
 function App() {
   return (
-    <div>
+    <Wrapper>
       <GlobalStyles />
       <Header />
       <Projects />
       <About />
       <Nav />
-    </div>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  width: 100vw;
+`;
 
 export default App;
