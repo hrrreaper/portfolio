@@ -37,6 +37,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  
 `;
 
 const slide = keyframes`
@@ -74,7 +75,11 @@ const H1 = styled.h1`
 
   @media screen and (max-width: 700px) {
     margin-top: 10vh;
-    font-size: 4.75rem;
+    font-size: 5rem;
+  }
+  @media screen and (max-width: 500px) {
+    margin-top: 15vh;
+    font-size: 4rem;
   }
 `;
 
@@ -103,7 +108,7 @@ const Text = styled.div`
 
   @media screen and (max-width: 700px) {
     font-size: 1rem;
-    bottom: 15vh;
+    bottom: 5vh;
   }
 `;
 

@@ -39,6 +39,11 @@ const Img = styled.img`
   top: -4vh;
   left: -2vw;
   animation: ${swing} 4s ease-in-out forwards infinite;
+
+  @media screen and (max-width: 500px) {
+    top: 3vh;
+    left: -10vw;
+  }
 `;
 
 export default Plant

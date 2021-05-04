@@ -69,9 +69,9 @@ const Wrapper = styled.nav`
   z-index: 1000;
   background-color: #9FD9AD;
 
-   @media screen and (max-width: 700px) {
+   @media screen and (max-width: 500px) {
     padding-top: 5px;
-    
+    top: 0px;
   }
 `;
 
@@ -84,6 +84,10 @@ const NavBtn = styled.div`
 const Links = styled.div`
   display: flex;
   margin-right: 40px;
+
+   @media screen and (max-width: 500px) {
+    margin-right: 10px;
+  }
 `;
 
 const A = styled.a`
@@ -94,7 +98,7 @@ const A = styled.a`
     color: white;
   }
   
-   @media screen and (max-width: 700px) {
+   @media screen and (max-width: 500px) {
    margin-left: 10px;
   }
 `;
