@@ -68,6 +68,11 @@ const Wrapper = styled.nav`
   padding-top: 10px;
   z-index: 1000;
   background-color: #9FD9AD;
+
+   @media screen and (max-width: 700px) {
+    padding-top: 5px;
+    
+  }
 `;
 
 const NavBtn = styled.div`
@@ -87,6 +92,10 @@ const A = styled.a`
   
   &:hover {
     color: white;
+  }
+  
+   @media screen and (max-width: 700px) {
+   margin-left: 10px;
   }
 `;
 
@@ -117,8 +126,9 @@ const StyledScroll = styled(Scroll.Link)`
   }
 
     @media screen and (max-width: 700px) {
-    font-size: 1rem;
+    font-size: .85rem;
     letter-spacing: 2px;
+    margin-left: 10px;
   }
   
 `;

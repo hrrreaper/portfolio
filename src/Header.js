@@ -74,7 +74,7 @@ const H1 = styled.h1`
 
   @media screen and (max-width: 700px) {
     margin-top: 10vh;
-    font-size: 6rem;
+    font-size: 4.75rem;
   }
 `;
 
@@ -103,11 +103,13 @@ const Text = styled.div`
 
   @media screen and (max-width: 700px) {
     font-size: 1rem;
+    bottom: 15vh;
   }
 `;
 
 const Icons = styled.div`
   margin-top: 20px;
+  
   .icon {
     margin: 10px;
     color: #414361;

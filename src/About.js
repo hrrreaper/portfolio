@@ -20,17 +20,17 @@ const About = () => {
 }
 
 const Img = styled.img`
-  width: 250px;
+  width: 280px;
   border-radius: 50%;
   margin-right: 20px;
   
     @media screen and (max-width: 700px) {
-    width: 150px;
+    width: 200px;
   }
 `;
 
 const Text = styled.div`
-  width: 40vw;
+  width: 50vw;
   background-color: white;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -43,6 +43,8 @@ const Text = styled.div`
     @media screen and (max-width: 700px) {
     font-size: .9rem;
     letter-spacing: 0px;
+    width: 80vw;
+    margin-top: 10px;
   }
 `;
 
@@ -53,6 +55,10 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  
+   @media screen and (max-width: 700px) {
+  flex-direction: column;
+  }
 `;
 
 export default About;
