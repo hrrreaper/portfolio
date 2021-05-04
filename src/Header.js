@@ -65,7 +65,6 @@ const H1 = styled.h1`
   background-position: center;
 	color: transparent;
 	-webkit-background-clip: text;
-  padding: 10px 20px;
   width: fit-content;
   font-size: 7rem;
   font-family: 'Righteous', cursive;
@@ -80,6 +79,11 @@ const H1 = styled.h1`
   @media screen and (max-width: 500px) {
     margin-top: 17vh;
     font-size: 4.75rem;
+  }
+  @media screen and (max-width: 400px) {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 4.5rem;
   }
 `;
 

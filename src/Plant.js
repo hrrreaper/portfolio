@@ -4,11 +4,11 @@ import styled, { keyframes } from 'styled-components';
 
 const Plant = () => {
   return (
-    <div>
+    <>
       <ImgDiv>
       <Img src={plant} />
       </ImgDiv> 
-    </div>
+    </>
   )
 }
 
@@ -27,8 +27,8 @@ const swing = keyframes`
 `;
 
 const ImgDiv = styled.div`
-  z-index: -1;
-  width: 100 vw;
+  /* z-index: -1; */
+  /* width: 80vw; */
 `;
 
 const Img = styled.img`
@@ -42,7 +42,12 @@ const Img = styled.img`
 
   @media screen and (max-width: 500px) {
     top: 3vh;
+    left: -20vw;
+  }
+  @media screen and (max-width: 400px) {
+    top: 5vh;
     left: -10vw;
+    width: 350px;
   }
 `;
 
