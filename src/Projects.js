@@ -176,7 +176,7 @@ const H2 = styled.h2`
   font-weight: 700;
   margin: 30px 0;
   margin-top: 50px;
-  text-shadow: 2px 2px 0px white;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8);
 `;
 
 const Description = styled.div`
@@ -186,7 +186,7 @@ const Description = styled.div`
   display: flex;
   line-height: 1.5;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px 40px;
   border-radius: 20px;
   box-shadow: 2px 2px 8px  2px rgba(0, 0, 0, 0.3);

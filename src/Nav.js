@@ -95,7 +95,7 @@ const A = styled.a`
   color: #414361;
   
   &:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
   }
   
    @media screen and (max-width: 500px) {
@@ -108,7 +108,7 @@ const StyledScroll = styled(Scroll.Link)`
   letter-spacing: 3px;
   font-size: 1.2rem;
   font-weight: 700;
-  text-shadow: 2px 3px 0px white;
+  text-shadow: 2px 3px 0px rgba(255, 255, 255, 0.8);
   margin-left: 20px;
 
   &::after {

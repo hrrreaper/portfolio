@@ -9,8 +9,11 @@ const About = () => {
       <Wrapper>
         <Img src={pic1} />
         <Text>
+            <div>
+              Hi 👋 I'm Heather Reaper!
+            </div>
           <p>
-            Hi 👋 I'm Heather Reaper. A recent graduate from Concordia's Full-Stack Web Development Bootcamp with a background in digital marketing, a passion for craft beer and my dog, Archie. I'm enthusiastic about learning new technologies and am looking for opportunities to practice and expand my knowledge.
+            A recent graduate from Concordia's Full-Stack Web Development Bootcamp with a background in digital marketing, a passion for craft beer and my dog, Archie. I'm enthusiastic about learning new technologies and am looking for opportunities to practice and expand my knowledge.
             Skilled in React, Node.js, JavaScript, Redux, HTML, CSS, MongoDB, REST APIs, Email Campaign Management and Google Analytics.
           </p>
         </Text>
@@ -18,6 +21,7 @@ const About = () => {
     </Element>
   )
 }
+
 
 const Img = styled.img`
   width: 280px;
@@ -31,15 +35,15 @@ const Img = styled.img`
 
 const Text = styled.div`
   width: 50vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   letter-spacing: 1px;
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 20px;
   padding: 10px;
+  text-shadow: 1px 1px 0px #9FD9AD;
   box-shadow: 2px 2px 8px  2px rgba(0, 0, 0, 0.2);
 
-  
     @media screen and (max-width: 700px) {
     font-size: .9rem;
     letter-spacing: 0px;
@@ -55,7 +59,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  
+
    @media screen and (max-width: 700px) {
   flex-direction: column;
   }

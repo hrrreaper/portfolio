@@ -58,7 +58,7 @@ const Div = styled.div`
 `;
 
 const H1 = styled.h1`
-  text-shadow: 8px 9px 0px white;
+  text-shadow: 8px 9px 0px rgba(255, 255, 255, 0.95);
   margin-top: 15vh;
   background-image: url(https://media.giphy.com/media/VIzmAi5KS3RyRhY9Sq/source.gif);
 	background-size: cover;
@@ -103,7 +103,7 @@ const Text = styled.div`
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2;
-  text-shadow: 2px 2px 0px white;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8);
   letter-spacing: 2px;
   padding: 15px;
   background-color: rgba(193, 237, 204, 0.5);
