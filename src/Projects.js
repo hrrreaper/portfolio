@@ -15,6 +15,9 @@ import mosaic3 from './assets/mosaic-project-3.PNG';
 import mosaic4 from './assets/mosaic-project-4.PNG';
 import mosaic5 from './assets/mosaic-project-5.PNG';
 import quote1 from './assets/quote1.PNG';
+import kanban1 from './assets/kanban1.PNG';
+import kanban2 from './assets/kanban2.PNG';
+import kanban3 from './assets/kanban3.PNG';
 
 const Projects = () => {
   return (
@@ -82,6 +85,19 @@ const Projects = () => {
           <Img src={bob2} />
           <Img src={bob3} />
         </ImgsDiv>
+        </Description>
+        <Description>
+        <H3>
+          Kanban Board
+        </H3>
+        <div>
+          Drag & Drop Kanban board made with HTML, CSS & Javascript 
+        </div>
+          <ImgsDiv>
+          <Img src={kanban1} />
+          <Img src={kanban2} />
+          <Img src={kanban3} />
+        </ImgsDiv>
       </Description>
       <Description>
         <H3>
@@ -97,6 +113,7 @@ const Projects = () => {
           <Img src={quote1} />
         </ImgsDiv>
       </Description>
+      
       </Wrapper>
       </Element>
   )
