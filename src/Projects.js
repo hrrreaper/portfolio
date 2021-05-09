@@ -18,6 +18,9 @@ import quote1 from './assets/quote1.PNG';
 import kanban1 from './assets/kanban1.PNG';
 import kanban2 from './assets/kanban2.PNG';
 import kanban3 from './assets/kanban3.PNG';
+import weather from './assets/weather.PNG';
+import weather1 from './assets/weather1.PNG';
+import weather2 from './assets/weather2.PNG';
 
 const Projects = () => {
   return (
@@ -75,7 +78,7 @@ const Projects = () => {
           Bob's Burgers Game
         </H3>
         <div>
-          Build using Object Oriented Programming with JavaScript.
+          Built using Object Oriented Programming with JavaScript.
         </div>
         <div>
           Play it live <A href='https://belcherfamilyfoodfight.netlify.app/' target='_blank'>here!</A> Or view a demo <A href='https://youtu.be/7Obar6Y30cU' target='_blank'>on YouTube!</A>
@@ -104,13 +107,27 @@ const Projects = () => {
           Quote Generator
         </H3>
         <div>
-          Build using HTML, CSS & JavaScript.  
+          Built using HTML, CSS & JavaScript.  
         </div>
         <div>
           Generates random quotes with Twitter integration.
         </div>
           <ImgsDiv>
           <Img src={quote1} />
+        </ImgsDiv>
+      </Description>
+      <Description>
+        <H3>
+          Weather App
+        </H3>
+        <div>
+          Built using React and OpenWeather API  
+        </div>
+        
+          <ImgsDiv>
+          <Img src={weather2} />
+          <Img src={weather} />
+          <Img src={weather1} />
         </ImgsDiv>
       </Description>
       
