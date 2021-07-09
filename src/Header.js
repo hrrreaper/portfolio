@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { FaReact, FaNodeJs, FaJsSquare, FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 import Plant from './Plant';
 import { Element } from 'react-scroll';
 
@@ -23,7 +24,10 @@ const Header = () => {
         Craft Beer Enthusiast. Dog lover.
       </div>
 
-      <Icons><FaReact className="icon" size={50}/> <FaNodeJs className="icon" size={50}/> <FaJsSquare className="icon" size={50}/> <FaCss3Alt  className="icon" size={50}/> <FaHtml5 className="icon" size={50}/></Icons>
+          <Icons>
+          <FaReact className="icon" size={50} /> <FaNodeJs className="icon" size={50} /> <FaJsSquare className="icon" size={50} /> <FaCss3Alt className="icon" size={50} /> <FaHtml5 className="icon" size={50} />
+            <AiOutlineConsoleSql className="icon" size={50} />
+          </Icons>
       </Text>
       </Wrapper>
       </Element>

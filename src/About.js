@@ -14,7 +14,7 @@ const About = () => {
             </div>
           <p>
             A graduate from Concordia's Full-Stack Web Development Bootcamp with a background in digital marketing, a passion for craft beer and my dog, Archie. I'm enthusiastic about learning new technologies and am looking for opportunities to practice and expand my knowledge.
-            Skilled in React, Node.js, JavaScript, Redux, HTML, CSS, MongoDB, REST APIs, SQL, Email Campaign Management and Google Analytics.
+            Skilled in React, Node.js, JavaScript, Redux, HTML, CSS, SQL, MongoDB, REST APIs, CRM and Google Analytics.
           </p>
         </Text>
         </Wrapper>
